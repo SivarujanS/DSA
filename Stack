@@ -1,0 +1,23 @@
+//Python program to implement a stack
+
+stack = []
+stack.append('a')
+stack.append('b')
+stack.append('c')
+stack.append('d')
+stack.append('e')
+stack.append('f')
+
+print('Initial Stack')
+print(stack)
+
+print('/n elements popped from stack:')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+
+print('/n after elements popped from stack:')
+print(stack)
